@@ -29,18 +29,20 @@ pip install -r requirements.txt
 
 ## Model Zoo
 
-| Architecture | Backbone | Input Size | AP | AP_large | AP_small | Download |
-|--------------|----------|------------|--------|---------|-----------|-----------|
-| Ours | CSPDarknet-Attention4D | 640x640 | 0.445 | 0.458 | 0.432 | [model](link) \| [config](link) |
-| RTMDet | CSPNeXt | 640x640 | 0.423 | 0.435 | 0.411 | [model](link) \| [config](link) |
-| PPYOLOE | CSPResNet | 640x640 | 0.411 | 0.425 | 0.398 | - |
-| YOLOv8 | YOLOv8-backbone | 640x640 | 0.402 | 0.418 | 0.386 | - |
+## Model Zoo
 
-## Performance Comparison
+| Architecture | Backbone               | Input Size | AP    | AP_large | AP_small | Download                  |
+|--------------|------------------------|------------|-------|----------|----------|---------------------------|
+| Ours         | CSPDarknet-Attention4D | 640x640    | 0.445 | 0.458    | 0.432    | [model](link) \| [config](link) |
+| RTMDet       | CSPNeXt               | 640x640    | 0.423 | 0.435    | 0.411    | [model](link) \| [config](link) |
+| PPYOLOE      | CSPResNet             | 640x640    | 0.411 | 0.425    | 0.398    | -                         |
+| YOLOv8       | YOLOv8-backbone       | 640x640    | 0.402 | 0.418    | 0.386    | -                         |
 
-| Method | Backbone | AP | AP_50 | AP_75 | AP_small | AP_medium | AP_large | 
-|--------|----------|-------|--------|---------|------------|-------------|-----------|
-| Ours | CSPDarknet-Attention4D | 0.445 | 0.675 | 0.482 | 0.432 | 0.446 | 0.458 |
-| RTMDet | CSPNeXt | 0.423 | 0.654 | 0.461 | 0.411 | 0.425 | 0.435 |
-| PPYOLOE | CSPResNet | 0.411 | 0.642 | 0.448 | 0.398 | 0.412 | 0.425 |
-| YOLOv8 | YOLOv8-backbone | 0.402 | 0.635 | 0.442 | 0.386 | 0.405 | 0.418 |
+## Performance Comparison 
+
+| Method  | Backbone               | AP    | AP_50 | AP_75 | AP_small | AP_medium | AP_large |
+|---------|------------------------|-------|-------|-------|----------|-----------|----------|
+| Ours    | CSPDarknet-Attention4D | 0.445 | 0.675 | 0.482 | 0.432    | 0.446     | 0.458    |
+| RTMDet  | CSPNeXt               | 0.423 | 0.654 | 0.461 | 0.411    | 0.425     | 0.435    |
+| PPYOLOE | CSPResNet             | 0.411 | 0.642 | 0.448 | 0.398    | 0.412     | 0.425    |
+| YOLOv8  | YOLOv8-backbone       | 0.402 | 0.635 | 0.442 | 0.386    | 0.405     | 0.418    |

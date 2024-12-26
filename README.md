@@ -46,3 +46,11 @@ pip install -r requirements.txt
 | RTMDet  | CSPNeXt                | 0.423 | 0.654  | 0.461 | 0.411    | 0.425     | 0.435    |
 | PPYOLOE | CSPResNet              | 0.411 | 0.642  | 0.448 | 0.398    | 0.412     | 0.425    |
 | YOLOv8  | YOLOv8-backbone        | 0.402 | 0.635  | 0.442 | 0.386    | 0.405     | 0.418    |
+
+# Citation
+@article{yourarticle2024,
+  title={Your Paper Title},
+  author={Your Name et al.},
+  journal={arXiv preprint arXiv:xxxx.xxxxx},
+  year={2024}
+}

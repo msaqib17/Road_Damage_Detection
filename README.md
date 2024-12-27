@@ -46,7 +46,9 @@ python demo/image_demo.py demo/86.JPG configs/rtmdet/rtmdet_l_8xb32-300e_coco.py
 python tools/train.py configs/rtmdet/rtmdet_l_8xb32-300e_coco.py
 ```
 ## Testing
-
+```bash
+python tools/test.py configs/rtmdet/rtmdet_l_8xb32-300e_coco.py work_dirs/rtmdet_l_8xb32-300e_coco/epoch_300.pth --cfg-options test_dataloader.dataset.ann_file=voc07_test.json test_dataloader.dataset.data_prefix.img=JPEGImages test_dataloader.dataset.data_prefix._delete_=True test_evaluator.format_only=True test_evaluator.ann_file=voc07_test.json test_evaluator.outfile_prefix=work_dirs/results
+```
 ## Model Zoo
 
 | Architecture | Backbone               | Input Size | AP    | AP_large | AP_small | Download                        |

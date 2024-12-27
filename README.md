@@ -49,7 +49,7 @@ python tools/train.py configs/rtmdet/rtmdet_l_8xb32-300e_coco.py
 ```bash
 python tools/test.py configs/rtmdet/rtmdet_l_8xb32-300e_coco.py work_dirs/rtmdet_l_8xb32-300e_coco/epoch_300.pth --cfg-options test_dataloader.dataset.ann_file=voc07_test.json test_dataloader.dataset.data_prefix.img=JPEGImages test_dataloader.dataset.data_prefix._delete_=True test_evaluator.format_only=True test_evaluator.ann_file=voc07_test.json test_evaluator.outfile_prefix=work_dirs/results
 ```
-## Model Zoo
+## Performance Evaluation on our dataset
 
 | Architecture | Backbone               | Input Size | AP    | AP_large | AP_small | Download                        |
 |--------------|------------------------|------------|-------|----------|----------|---------------------------------|
@@ -58,7 +58,7 @@ python tools/test.py configs/rtmdet/rtmdet_l_8xb32-300e_coco.py work_dirs/rtmdet
 | PPYOLOE      | CSPResNet              | 640x640    | 0.411 | 0.425    | 0.398    | -                               |
 | YOLOv8       | YOLOv8-backbone        | 640x640    | 0.402 | 0.418    | 0.386    | -                               |
 
-## Performance Comparison 
+## Scale-wise Performance Comparison 
 
 | Method  | Backbone               | AP    | AP_50  | AP_75 | AP_small | AP_medium | AP_large |
 |---------|------------------------|-------|--------|-------|----------|-----------|----------|

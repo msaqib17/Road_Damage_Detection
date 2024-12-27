@@ -42,7 +42,9 @@ python demo/image_demo.py demo/86.JPG configs/rtmdet/rtmdet_l_8xb32-300e_coco.py
 ```
 
 ## Training
-
+```bash
+python tools/train.py configs/rtmdet/rtmdet_l_8xb32-300e_coco.py
+```
 ## Testing
 
 ## Model Zoo

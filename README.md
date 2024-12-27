@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>Efficient Road Damage Detection</h1>
+  <h1>ERDD: Efficient Road Damage Detection</h1>
 </div>
 
 

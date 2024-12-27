@@ -14,7 +14,7 @@ This repository presents an efficient road damage detection framework using deep
 ## Installation
 
 
-# Clone the repository
+### Clone the repository
 git clone https://github.com/yourusername/road-damage-detection.git
 cd road-damage-detection
 

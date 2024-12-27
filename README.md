@@ -67,10 +67,15 @@ python tools/test.py configs/rtmdet/rtmdet_l_8xb32-300e_coco.py work_dirs/rtmdet
 | PPYOLOE | CSPResNet              | 0.411 | 0.642  | 0.448 | 0.398    | 0.412     | 0.425    |
 | YOLOv8  | YOLOv8-backbone        | 0.402 | 0.635  | 0.442 | 0.386    | 0.405     | 0.418    |
 
-# Citation
-@article{yourarticle2024,
-  title={Your Paper Title},
-  author={Your Name et al.},
-  journal={arXiv preprint arXiv:xxxx.xxxxx},
-  year={2024}
+## Citation
+
+If you find this work useful in your research, please consider citing:
+
+```bibtex
+@article{saqib2024road,
+    title={Road Damage Detection Using Attention4D Blocks},
+    author={Saqib, Muhammad and Author2, Name and Author3, Name},
+    journal={arXiv preprint arXiv:xxxx.xxxx},
+    year={2024}
 }
+```

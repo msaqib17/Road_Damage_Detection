@@ -51,12 +51,19 @@ python tools/test.py configs/rtmdet/rtmdet_l_8xb32-300e_coco.py work_dirs/rtmdet
 ```
 ## Performance Evaluation on our dataset
 
-| Architecture | Backbone               | Input Size | AP    | AP_large | AP_small | Download                        |
-|--------------|------------------------|------------|-------|----------|----------|---------------------------------|
-| Ours         | CSPDarknet-Attention4D | 640x640    | 0.445 | 0.458    | 0.432    | [model](link) \| [config](link) |
-| RTMDet       | CSPNeXt                | 640x640    | 0.423 | 0.435    | 0.411    | [model](link) \| [config](link) |
-| PPYOLOE      | CSPResNet              | 640x640    | 0.411 | 0.425    | 0.398    | -                               |
-| YOLOv8       | YOLOv8-backbone        | 640x640    | 0.402 | 0.418    | 0.386    | -                               |
+## Detection Results
+
+| Methods | Backbone | AP | AP₅₀ | AP₇₅ | APₛ | APₘ | APₗ | AR | ARₛ | ARₘ | ARₗ |
+|:--------|:---------|:---|:-----|:-----|:----|:----|:----|:---|:----|:----|:----|
+| YOLOV8 | YOLOv8CSPDarknet | 0.122 | 0.299 | 0.082 | 0.000 | 0.083 | 0.127 | 0.448 | 0.000 | 0.234 | 0.454 |
+| YOLOV7 | YOLOv7Backbone | *0.255* | *0.498* | *0.233* | 0.000 | **0.127** | 0.263 | 0.547 | 0.000 | 0.351 | 0.553 |
+| YOLOV6 | YOLOv6Backbone | 0.110 | 0.263 | 0.095 | 0.000 | 0.108 | 0.114 | *0.560* | 0.000 | **0.460** | 0.572 |
+| PPYOLOE | PPYOLOECSPResNet | 0.112 | 0.463 | 0.062 | 0.000 | 0.079 | 0.117 | 0.322 | 0.000 | *0.388* | 0.325 |
+| RTMDET | CSPNeXt | 0.268 | 0.527 | 0.229 | 0.000 | *0.123* | *0.280* | 0.517 | 0.000 | 0.373 | *0.623* |
+| YOLOX | YOLOXCSPDarknet | 0.200 | 0.377 | 0.188 | 0.000 | 0.006 | 0.204 | 0.288 | 0.000 | 0.033 | 0.386 |
+| **Ours** | CSPNeXt | **0.446** | **0.687** | **0.451** | 0.000 | 0.113 | **0.458** | **0.675** | 0.000 | 0.277 | **0.690** |
+
+*Detection results (mAP) on road-crack Dataset. The best results are shown in **bold** and the second best in *italics*.*
 
 ## Scale-wise Performance Comparison 
 

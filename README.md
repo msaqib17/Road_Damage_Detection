@@ -31,7 +31,7 @@ pip install -v -e .
 
 ```
 
-Getting Started
+
 ## Proposed Dataset
 Will be released very soon.
 

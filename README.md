@@ -35,6 +35,11 @@ Getting Started
 ## Proposed Dataset
 Will be released very soon.
 
+## Demo
+Download weights from this google drive link
+```bash
+python demo/image_demo.py demo/86.JPG configs/rtmdet/rtmdet_l_8xb32-300e_coco.py --weights work_dirs/epoch_300.pth
+```
 
 ## Training
 

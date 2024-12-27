@@ -29,7 +29,7 @@ model = dict(
         act_cfg=dict(type='SiLU', inplace=True)),
     bbox_head=dict(
         type='RTMDetSepBNHead',
-        num_classes=80,
+        num_classes=5,
         in_channels=256,
         stacked_convs=2,
         feat_channels=256,

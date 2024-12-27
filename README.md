@@ -1,10 +1,6 @@
 <div align="center">
   <h1>ERDD: Efficient Road Damage Detection</h1>
 </div>
-
-
-# Efficient Road Damage Detection
-
 An efficient approach for detecting multiple types of road damage using CSPDarknet with Attention4D.
 
 ## Introduction

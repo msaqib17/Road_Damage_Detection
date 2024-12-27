@@ -33,6 +33,8 @@ mim install "mmcv>=2.0.0"
 # Install MMDetection
 pip install -v -e .
 
+```
+
 Getting Started
 ## Proposed Dataset
 Will be released very soon.

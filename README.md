@@ -67,7 +67,7 @@ python tools/test.py configs/rtmdet/rtmdet_l_8xb32-300e_coco.py work_dirs/rtmdet
 
 
 ## Scale-specific Performance Comparison (APₛ/APₘ/APₗ)
-For comprehensive results. Please refer to the paper
+For comprehensive results. Please refer to the paper. Use MMYOLO for YOLOV8, YOLOV7, YOLOV6, PPYOLOE
 ## Citation
 
 If you find this work useful in your research, please consider citing:

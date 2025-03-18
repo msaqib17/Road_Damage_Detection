@@ -73,10 +73,10 @@ For comprehensive results. Please refer to the paper. Use MMYOLO for YOLOV8, YOL
 If you find this work useful in your research, please consider citing:
 
 ```bibtex
-@article{saqib2024road,
-    title={Road Damage Detection Using Attention4D Blocks},
-    author={Saqib, Muhammad and Author2, Name and Author3, Name},
-    journal={arXiv preprint arXiv:xxxx.xxxx},
-    year={2024}
+@article{alkalbani2025rdd4d,
+  title={RDD4D: 4D Attention-Guided Road Damage Detection And Classification},
+  author={Alkalbani, Asma and Saqib, Muhammad and Alrawahi, Ahmed Salim and Anwar, Abbas and Adak, Chandarnath and Anwar, Saeed},
+  journal={arXiv preprint arXiv:2501.02822},
+  year={2025}
 }
 ```

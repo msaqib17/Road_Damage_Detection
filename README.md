@@ -33,7 +33,7 @@ pip install -v -e .
 
 
 ## Proposed Dataset
-Will be released very soon.
+The dataset is released. Find the dataset in RoadDamageDataset2025 folder.
 
 ## Demo
 Download weights from this Google Drive link https://drive.google.com/file/d/1XccDJlnS1PfmrHOUWfeRvRML9Hg6xsuj/view?usp=sharing
@@ -75,7 +75,7 @@ If you find this work useful in your research, please consider citing:
 ```bibtex
 @article{alkalbani2025rdd4d,
   title={RDD4D: 4D Attention-Guided Road Damage Detection And Classification},
-  author={Alkalbani, Asma and Saqib, Muhammad and Alrawahi, Ahmed Salim and Anwar, Abbas and Adak, Chandarnath and Anwar, Saeed},
+  author={Alkalbani, Asma and Saqib, Muhammad and Alrawahi, Ahmed Salim and Anwar, Abbas and Adak, Chandranath and Anwar, Saeed},
   journal={arXiv preprint arXiv:2501.02822},
   year={2025}
 }
